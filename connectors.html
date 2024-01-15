@@ -1,0 +1,84 @@
+
+
+<!DOCTYPE>
+	<html>
+
+		<head>
+
+			<title>Sandisk</title>
+			<meta charset="utf-8">
+
+			<!-- this is used for making a website responsive for all devices -->
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+
+			<link rel="stylesheet" type="text/css" href="   css\style.css">
+
+			<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap" rel="stylesheet">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+		</head>
+
+		<section class="order" id="order">
+
+			<div class="container headings text-center"> 
+				<h1 class="text-center font-weight-bold">Place Your Order</h1>
+				<p class="text-capitalize pt-1">Fill up your details and choose type of Connector.				
+			</div>
+	
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-8 col-10 offset-lg-2 offset-md-2 col-1">
+							<form action="   response.html">
+
+								<script>
+									function execute() {
+									  alert("Your Order is Placed!");
+									}
+									</script>
+								
+								
+							  <div class="form-group">
+							    <input type="text" class="form-control" id="username"required autocomplete="off" placeholder="Your Name">
+							  </div>
+
+							  <div class="form-group">
+							    <input type="email" class="form-control" id="email"required autocomplete="off" placeholder="Your Email Address">
+							  </div>
+
+							  <div class="form-group">
+							    <input type="number" class="form-control" id="mobile" required autocomplete="off" placeholder="Contact Number">
+							  </div>
+
+							  <div class="form-group">
+						  		<label for="address"></label>
+						  		<textarea class="form-control" rows="5" id="address" placeholder="Delivery Addrees"></textarea>
+								</div>
+
+
+								Select Type <select name="type" id="type"> 
+					                <option value="1">USB-A </option>
+					                <option value="2">USB-B</option>
+					                <option value="3">USB-C</option>
+					                <option value="4">USB 3.0</option>
+					                <option value="5">Mini USB</option> 
+					                <option value="6">On-the-Go(OTG)</option> 
+					            </select> 
+
+         
+            					<div class="checkbox">
+						   			<label><input type="checkbox"> Remember Details</label>
+								</div>
+
+								<div class="d-flex justify-content-center form-button">
+									<button type="submit"  onclick="execute ()" class="btn btn-primary">Submit</button>
+								</div>
+							</form>
+						
+					</div>
+				</div>
+			</div>
+		</html>
+
+
+
+
